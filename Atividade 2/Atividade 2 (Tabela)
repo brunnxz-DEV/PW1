@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+    <title>Site super épico</title>
+</head>
+<body>
+    <header>
+        <h1>Bem vindos ao site super épico</h1>
+    </header>
+    <main>
+        <p>exemplo de site basico com estrutura html e com imagem, esse site é um teste</p>
+    </main>
+    <img src="imagem/download.png" alt="Logo da steam, melhor loja de jogos">
+    <footer>
+        <p>2025 minha pagina</p>
+    </footer>
+    <a href="https://garticphone.com/pt/0081f02e8c">garticphone</a>
+    <h2>Tabela de horas jogadas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do jogo</th>
+                <th>Horas jogadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>People Playground</td>
+                <td>302,8 Horas</td>
+            </tr>
+            <tr>
+                <td>Arma 3</td>
+                <td>274,3 Horas</td>
+            </tr>
+            <tr>
+                <td>Grand Theft Auto V</td>
+                <td>146,7 Horas</td>
+            </tr>
+            <tr>
+                <td>The Long Drive</td>
+                <td>141,8 Horas</td>
+            </tr>
+            <tr>
+                <td>Garry's Mod</td>
+                <td>76 horas</td>
+            </tr>
+        </tbody>
+</body>
+</html>
