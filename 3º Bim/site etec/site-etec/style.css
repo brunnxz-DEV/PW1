@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+nav{
+    background-color: #b20000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-principal a{
+    color:white;
+    text-decoration: none;
+    height: 30px;
+    line-height: 15px;
+    text-align: center;
+}
