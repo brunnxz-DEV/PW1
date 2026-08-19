@@ -1,0 +1,17 @@
+Linux Mint
+-----------
+
+usuário: aluno
+senha: etec211
+
+Kali Linux
+-----------
+
+usuário: aluno
+senha: etec211
+
+Metasploitable 2
+-----------------
+
+usuário: msfadmin
+senha: msfadmin

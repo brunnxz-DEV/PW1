@@ -1,0 +1,90 @@
+#+Title: Informações sobre Esta Máquina
+
+Todos os softwares que costumanos abrir unsando menu iniciar estão com seus respectivos atalhos no desktop.
+
+
+* Softwares Instalados
+
+** Design Digital
+GIMP => https://www.gimp.org/
+Sugestoes de plugins?
+
+Blender => https://www.blender.org/download/
+Sugestões de plugins?
+
+
+** Desenvolvimento de Software
+
+*** Rest Clients
+**** Bruno https://www.usebruno.com/
+**** Insomina https://insomnia.rest/download
+**** postman https://www.postman.com/downloads/
+
+*** Plataformas de Programação
+**** Java jdk
+     Tem vários jdks em C:/users/admin/PROGSATIVOS/sdks-java
+     Basta modificar as variáveis de ambiente pra escolher qual utilizar
+     Por padrão estã instalado mais moderno: java 25 da oracle
+
+**** Node
+     Instalacao básica next next => https://nodejs.org/pt-br/download
+     Habilitado o chocolatey
+***** pacotes do chocolatey atualizados
+     Chocolatey upgraded 19/19 packages.
+     See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+     Upgraded:
+ - chocolatey-compatibility.extension v1.0.0
+ - chocolatey-core.extension v1.4.0
+ - chocolatey-dotnetfx.extension v1.0.1
+ - chocolatey-visualstudio.extension v1.13.0
+ - chocolatey-windowsupdate.extension v1.0.5
+ - dotnetfx v4.8.0.20220524
+ - KB2919355 v1.0.20160915
+ - KB2919442 v1.0.20160915
+ - KB2999226 v1.0.20181019
+ - KB3033929 v1.0.5
+ - KB3035131 v1.0.3
+ - python v3.14.2
+ - python3 v3.14.2
+ - python314 v3.14.2
+ - vcredist140 v14.44.35211
+ - vcredist2015 v14.0.24215.20170201
+ - visualstudio2022buildtools v117.14.23
+ - visualstudio2022-workload-vctools v1.0.0
+ - visualstudio-installer v2.0.7
+Type ENTER to exit:
+
+**** .Net
+
+     Instalado .net versao 4.8 (a mesma do NSA)
+     
+     https://dotnet.microsoft.com/pt-br/download/dotnet-framework/thank-you/net48-offline-installer
+
+**** kotlin
+
+*** Ides
+**** Embarcados: Tonny (https://thonny.org/)
+**** Embarcados: Arduino Ide
+debian-13.2.0
+**** Android
+Android Studio => C:\Program Files\Android\Android Studio
+
+**** Visual Studio Comunity (não é o vscode)
+     https://visualstudio.microsoft.com/pt-br/downloads/
+     
+**** UML
+***** Star Uml => https://staruml.io/download
+***** UML Designer
+***** Astah ? nao consegui ainda
+***** Eclipse Modelling
+***** Eclipse Papyrus (Uml)
+     https://eclipse.dev/papyrus/download.html#desktop
+     
+****
+
+*** Git/Github
+    Github Desktop => https://desktop.github.com/download/
+    Git em linha de comando
+    gh command => https://cli.github.com/
+***     
