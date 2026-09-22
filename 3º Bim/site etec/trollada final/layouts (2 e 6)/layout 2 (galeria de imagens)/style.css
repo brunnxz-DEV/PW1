@@ -1,0 +1,46 @@
+:root {
+    --cor-branco: white;
+    --cor-preto: black;
+    --cor-cinza: #eee;
+    --borda: 1px;
+    --espaco: 5px;
+    --gap: 4px;
+    --raio: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cor-fundo: black;
+        --cor-texto: white;
+        --cor-cinza: #333;
+    }
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    padding: var(--espaco);
+
+    border: var(--borda) dashed var(--cor-borda);
+
+    background-color: var(--cor-fundo);
+}
+
+.item {
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cor-cinza);
+    color: var(--cor-texto);
+
+    border: var(--borda) solid var(--cor-texto);
+}
