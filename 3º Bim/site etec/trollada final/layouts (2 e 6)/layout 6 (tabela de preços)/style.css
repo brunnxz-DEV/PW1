@@ -30,9 +30,8 @@ body{
 
     padding: var(--espaco);
 
-    border: var(--borda) dashed var(--cor-borda);
+    border: var(--borda) dashed var(--cor-cinza-borda);
 
-    background-color: var(--cor-fundo);
 }
 
 .plano {
@@ -78,6 +77,12 @@ body{
     margin: 0;
 
     border-bottom: var(--borda) solid var(--cor-texto);
+}
+
+.plano ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .plano li {
