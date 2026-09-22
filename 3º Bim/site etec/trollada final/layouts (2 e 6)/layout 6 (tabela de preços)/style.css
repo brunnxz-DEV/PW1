@@ -11,7 +11,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --cor-fundo: black;
+        --cor-fundo: rgb(42, 42, 42);
         --cor-texto: white;
         --cor-cinza: #333;
         --cor-destaque: #665500;
@@ -36,12 +36,12 @@ body{
 
 .plano {
     background-color: var(--cor-cinza);
-    color: var(--cor-texto);
 
-    border: var(--borda) solid var(--cor-texto);
+    border: var(--borda) solid var(--cor-preto);
     border-radius: var(--raio);
 
     overflow: hidden;
+    text-align: left;
 }
 
 .plano button {
@@ -65,9 +65,7 @@ body{
     margin: 0;
     padding: var(--espaco);
 
-    color: var(--cor-texto);
-
-    border-bottom: var(--borda) solid var(--cor-texto);
+    border-bottom: var(--borda) solid var(--cor-preto);
 }
 
 .preco {
@@ -95,4 +93,8 @@ body{
 
 .plano.destaque {
     background-color: var(--cor-destaque);
+}
+.plano.destaque h3 {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
 }
